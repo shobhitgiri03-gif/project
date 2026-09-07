@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>google 3</title>
+</head>
+<style> 
+    body {
+        background: #000000;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        color: #a1a1a1;
+        font-size: 36px;
+    }
+    h3 {
+        color: #fff9f9;
+        font-size: 24px;
+    }
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    td {
+        padding: 10px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    select, input[type="number"] {
+        width: 200px;
+        padding: 5px;
+        font-size: 16px;
+    }
+    label {
+        color: #fff9f9;
+    }
+    button {
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }   
+    </style>
+<body>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">    
+    <h1> basic information</h1>
+    <h3> enter your date of birth and gender </h3>
+    <table>
+        <tr>
+            <td><label for="month">Month</label></td>
+            <td><select id="month" name="month" required>
+                <option value="">Select month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="day">Day</label></td>
+             <option value="">day</option>
+            <td><input type="number" id="day" name="day" min="1" max="31" required></td>
+        </tr>
+        <tr>
+            <td><label for="year">Year</label></td>
+                <option value="">year</option>
+                <main role="main">
+            </select></td>
+            <td><input type="number" id="year" name="year" min="1900" max="2024" required></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td> 
+            <td><select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value=" Male">Male</option>
+                <option value=" Female">Female  </option>
+                <option value=" Other">Other</option>       
+            </select></td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="google_4.html"><button type="submit">Next</button></a> 
+         
+
+</body>
+</html>
